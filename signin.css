@@ -20,17 +20,32 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff;
 }
 h2 {
     font-size: 2em;
     color: #fff;
     text-align: center;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff;
 }
 .input-box {
     position: relative;
     width: 310px;
     margin: 30px 0;
     border-bottom: 2px solid #fff;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff;
 }
 .input-box label {
     position: absolute;
@@ -40,11 +55,21 @@ h2 {
     color: #fff;
     pointer-events: none;
     transition: 0.5s;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff;
 }
 
 .input-box input:focus ~ label,
  .input-box input:valid ~ label {
     top: -5px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff;
 }
 .input-box input {
     width: 100%;
@@ -54,6 +79,11 @@ h2 {
     outline: none;
     font-size: 1em;
     color: #fff;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff;
 }
 
 .input-box .icon {
@@ -62,6 +92,11 @@ h2 {
     color: #fff;
     font-size: 1.2em;
     line-height: 57px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff;
 }
 .top-bar {
   background-color: #4f5b6d;
@@ -96,3 +131,4 @@ h2 {
   font-weight: bold;
   margin-bottom: 20px;
 }
+
